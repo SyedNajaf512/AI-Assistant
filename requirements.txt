@@ -1,0 +1,25 @@
+# Anna AI Assistant - Dependencies (GUI + Voice Edition)
+
+# AI/NLP
+google-generativeai>=0.3.0
+
+# Windows Automation
+pyautogui>=0.9.54
+pywin32>=306
+psutil>=5.9.0
+
+# Voice (Optional - requires manual PyAudio setup on Windows)
+pyttsx3>=2.90
+SpeechRecognition>=3.10.0
+pyaudio>=0.2.13  # Commented out - install manually if you want voice input
+PyPDF2>=3.0.0  # Document learning
+
+# GUI (CORE - Required)
+# tkinter is built into Python
+
+# CLI Interface (Fallback)
+colorama>=0.4.6
+prompt-toolkit>=3.0.43
+
+# Utilities
+python-dotenv>=1.0.0
